@@ -1,10 +1,7 @@
+import AppRoutes from "./routes/AppRoutes";
+
 function App() {
-  return (
-    <div>
-      <h1>KhmerCareer AI</h1>
-      <p>Your Skills. Your Career. Your Future.</p>
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
